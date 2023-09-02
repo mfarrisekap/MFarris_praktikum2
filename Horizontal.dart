@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const MyHomePage(title: 'NOVRIANTO'),
+      home: const MyHomePage(title: 'M Farris'),
     );
   }
 }
@@ -24,7 +24,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('NOVRIANTO (Vertical Container)'),
+        title: Text('M Farris '),
       ),
       body: Center(
         child: Column(
